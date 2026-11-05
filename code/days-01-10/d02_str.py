@@ -20,4 +20,4 @@ day=parts[1]
 year=day[:4]
 mo=day[4:6]
 ri=day[6:8]
-print(f"日期：{parts[1]}\n距离：{year}-{mo}-{ri}\n状态：{parts[3]}\n序号：{parts[4].replace(".bin","")}")
+print(f"日期：{year}-{mo}-{ri}\n状态：{parts[3]}\n距离：{parts[2]}\n序号：{parts[4].replace(".bin","")}")
