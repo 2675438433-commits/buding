@@ -11,9 +11,9 @@ while sum < 100:
 print(f"加到 {j - 1} 时和超过 100，此时和为 {sum}")
 
 k = 0
-while k < 21:
+while k < 20:
     k = k + 1
     if k % 2 == 0:
         continue
-    else:
-        print(f"{k}")
+
+    print(k)
