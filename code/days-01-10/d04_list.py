@@ -38,9 +38,10 @@ for i, s in enumerate(scores):
 scores = [78, 92, 65, 88, 95, 73, 59, 84, 91, 67]
 bujige = []
 renshu = 0
-print(f"成绩单：")
+print(f"成绩单：{scores}")
+
 for a in scores:
-    print(a)
+    #  print(a)
     if a >= 60:
         renshu = renshu + 1
     else:
@@ -51,8 +52,9 @@ print(f"总分：{sum(scores)}")
 print(f"平均分：{sum(scores) / len(scores)}")
 print(f"最高分：{max(scores)}")
 print(f"最低分：{min(scores)}")
-print(f"及格人数：{renshu / len(scores)}")
+print(f"及格人数：{renshu}/ {len(scores)}")
 print(f"不及格分数：{bujige}")
 
-paixu = sorted(scores)
+paixu = sorted(scores, reverse=True)
 print(f"从高到低：{paixu}")
+
